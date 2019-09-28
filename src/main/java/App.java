@@ -25,7 +25,7 @@ public class App {
         try {
             TaskIO.readText(ls2, new File("resources/data.txt"));
         } catch (IOException e) {
-            logger.error("Task file not found");
+            logger.error("Task file not found!");
         } catch (ParseException e) {
             e.printStackTrace();
         }
